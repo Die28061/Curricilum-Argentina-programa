@@ -1,14 +1,10 @@
-console.log("alerta");
 
-const titulo = document.querySelector(".titulo");
-const btn =  document.querySelector("button");
-
-
-btn.addEventListener("click", function(){
-    titulo.style.color= blue;
-})
 
 function cambiaColor(){
-    titulo.style.backgroung = "red";
-
+    document.getElementById("cabecera").style.background = "darkcyan";
+    document.getElementById("columnas").style.display = "none";
+    document.getElementById("datos").style.display = "contents";
+    
+    
+    console.log("alerta");
 }
